@@ -1,0 +1,31 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# Virtual env
+venv/
+.venv/
+
+# Data and large assets
+archive/
+data/
+outputs/
+
+# Images
+*.jpg
+*.jpeg
+*.png
+*.bmp
+*.gif
+
+# Checkpoints and logs
+*.pt
+*.pth
+outputs/checkpoints/
+outputs/*.log
+
+# OS files
+.DS_Store
+Thumbs.db
